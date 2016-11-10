@@ -1,38 +1,66 @@
 html {
   text-size-adjust: 100%;
 }
-ul{
-display: flex;
-list-style: none;
-justify-content: space-between;
-align-items: center;
-}
-.logo{
-background-image: url(https://octodex.github.com/ui/logo.png);
-color:transparent;
-background-position: left;
-background-size: 7em;
-background-repeat: no-repeat;
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1em;
+  background-color: #f3f3f3;
 }
-.octo-image{
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1em;
+  background-color: #f3f3f3;
+  color: transparent;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-family: bold;
+  font-size: 16px;
+  padding: 0 15px;
+}
+
+.octo-image {
   display: flex;
   flex-wrap: wrap;
 }
-img{
+
+img {
   border: solid;
   border-width: thin;
   padding: 5%;
 }
-figcaption{
+
+figcaption {
   font-size: 1em;
   font-style: italic;
   text-align: right;
   color: gray;
 }
-q{
+
+q {
   color: black;
 }
+
 body {
   margin: 0;
   font: 16px / 1 sans-serif;
